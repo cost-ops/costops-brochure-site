@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cost-Ops | AWS Cost Optimization Consulting</title>
+    <meta
+      name="description"
+      content="AWS cost optimization consulting with no-agent, read-only analysis and a fee tied to verified savings."
+    >
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="announcement" role="status">
+      <strong>Coming soon</strong>
+      <span>Private AWS cost optimization pilots are opening soon.</span>
+    </div>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Cost-Ops home">
+        <span class="brand-mark" aria-hidden="true">C</span>
+        <span>Cost-Ops</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#approach">Approach</a>
+        <a href="#security">Security</a>
+        <a href="#engagement">Engagement</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">AWS cost optimization consulting</p>
+          <h1>Reduce AWS spend without installing agents or handing over broad access.</h1>
+          <p class="hero-copy">
+            We identify recurring cloud savings with minimal-permission AWS analysis,
+            clear recommendations, and an engagement model tied to verified monthly impact.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="mailto:hello@example.com?subject=AWS%20Cost%20Optimization%20Assessment">
+              Book an assessment
+            </a>
+            <a class="button button-secondary" href="#security">View access model</a>
+          </div>
+          <dl class="hero-stats" aria-label="Key offer details">
+            <div>
+              <dt>Access</dt>
+              <dd>Read-only</dd>
+            </div>
+            <div>
+              <dt>Agents</dt>
+              <dd>None</dd>
+            </div>
+            <div>
+              <dt>Fee model</dt>
+              <dd>10% of savings</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" aria-label="Cost savings dashboard preview">
+          <div class="browser-bar" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="dashboard">
+            <div class="dashboard-header">
+              <div>
+                <p>AWS monthly run rate</p>
+                <strong>$500,000</strong>
+              </div>
+              <span class="status-pill">No-agent scan</span>
+            </div>
+            <div class="chart" aria-hidden="true">
+              <span style="height: 72%"></span>
+              <span style="height: 67%"></span>
+              <span style="height: 74%"></span>
+              <span style="height: 61%"></span>
+              <span style="height: 58%"></span>
+              <span style="height: 49%"></span>
+              <span style="height: 44%"></span>
+              <span style="height: 38%"></span>
+            </div>
+            <div class="savings-row">
+              <div>
+                <p>Estimated savings</p>
+                <strong>$50,000/mo</strong>
+              </div>
+              <div>
+                <p>Success fee</p>
+                <strong>$5,000/mo</strong>
+              </div>
+            </div>
+            <ul class="signal-list">
+              <li><span></span>Idle compute and oversized instances</li>
+              <li><span></span>Storage lifecycle and orphaned volumes</li>
+              <li><span></span>Commitment and reservation candidates</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="approach">
+        <div class="section-kicker">Consulting first</div>
+        <div class="section-grid">
+          <div>
+            <h2>Built for teams that need savings, not another dashboard.</h2>
+          </div>
+          <div>
+            <p>
+              Cost-Ops starts with a focused assessment, then turns findings into
+              business-readable recommendations and implementation support. The platform
+              behind the work stays lightweight: scanner tools, utilization analysis,
+              savings calculations, and repeatable reports.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="feature-grid">
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">01</span>
+            <h3>Discover waste</h3>
+            <p>
+              Analyze cost, utilization, inventory, storage, and service configuration
+              signals to find recurring savings opportunities.
+            </p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">02</span>
+            <h3>Verify impact</h3>
+            <p>
+              Prioritize findings by confidence, implementation effort, risk, and monthly
+              financial impact.
+            </p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">03</span>
+            <h3>Implement safely</h3>
+            <p>
+              Keep assessment access read-only, then move remediation through a separate
+              approval path when the customer is ready.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="security">
+        <div>
+          <p class="eyebrow">Minimum-permission access</p>
+          <h2>No agents. No broad admin role. No blind trust.</h2>
+          <p>
+            Customers grant a scoped AWS role for assessment work. The scanner assumes
+            that role only when needed, collects read-only data, and produces a report
+            without touching workloads.
+          </p>
+        </div>
+        <div class="access-panel">
+          <h3>Assessment access model</h3>
+          <ul class="check-list">
+            <li>Customer-controlled IAM role</li>
+            <li>External ID for role assumption</li>
+            <li>Short-lived AWS credentials</li>
+            <li>Cost Explorer and CUR read access</li>
+            <li>CloudWatch and service describe permissions</li>
+            <li>No write permissions during assessment</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section proof-band">
+        <div>
+          <span>Potential customer profile</span>
+          <strong>$25k+ minimum value</strong>
+        </div>
+        <div>
+          <span>Target fee structure</span>
+          <strong>10% of verified savings</strong>
+        </div>
+        <div>
+          <span>Monthly cost discipline</span>
+          <strong>Lean internal platform</strong>
+        </div>
+      </section>
+
+      <section class="section engagement" id="engagement">
+        <div class="section-heading">
+          <p class="eyebrow">Engagement model</p>
+          <h2>Start with an assessment. Stay only where savings are real.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>Week 1</span>
+            <h3>Access and baseline</h3>
+            <p>
+              Configure read-only access, review current spend, define accounts and
+              services in scope, and agree on savings verification.
+            </p>
+          </article>
+          <article>
+            <span>Weeks 2-3</span>
+            <h3>Analysis and report</h3>
+            <p>
+              Run the scanner, review findings, validate opportunity size, and produce
+              an executive-ready savings plan.
+            </p>
+          </article>
+          <article>
+            <span>Week 4+</span>
+            <h3>Implementation support</h3>
+            <p>
+              Help the customer approve, sequence, and implement changes while tracking
+              verified monthly savings.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack-section">
+        <div>
+          <p class="eyebrow">Platform direction</p>
+          <h2>Reusable tools behind a consulting outcome.</h2>
+        </div>
+        <div class="stack-grid">
+          <span>Auth layer</span>
+          <span>Scanner service</span>
+          <span>Cost ingestion</span>
+          <span>Utilization analysis</span>
+          <span>Savings calculator</span>
+          <span>AI report assistant</span>
+          <span>Audit logging</span>
+          <span>Customer reports</span>
+        </div>
+      </section>
+
+      <section class="cta-section" id="contact">
+        <div>
+          <p class="eyebrow">Ready for a pilot?</p>
+          <h2>Find out where AWS spend is leaking before it becomes permanent.</h2>
+          <p>
+            Start with a scoped assessment and a clear list of savings opportunities
+            your team can approve or reject.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:hello@example.com?subject=AWS%20Cost%20Optimization%20Pilot">
+          Start a pilot
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Cost-Ops LLC</span>
+      <span>Minimal-access AWS cost optimization consulting.</span>
+    </footer>
+  </body>
+</html>
