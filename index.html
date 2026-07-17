@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cost-OPS | AWS Cost Optimization Consulting</title>
+    <title>Cost-OPS Platform | AWS Cost Intelligence & Optimization</title>
     <meta
       name="description"
-      content="AWS cost optimization consulting with no-agent, read-only analysis and a fee tied to verified savings."
+      content="Fintech-grade AWS cost optimization platform. Read-only scanning, intelligent remediation, rich reporting, and open source tools. Pay a percentage of your AWS bill — backed by real savings."
     >
     <link rel="icon" href="./favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./styles.css">
@@ -14,18 +14,20 @@
   </head>
   <body>
     <div class="announcement" role="status">
-      <strong>Coming soon</strong>
-      <span>Private AWS cost optimization pilots are opening soon.</span>
+      <strong>Now open source</strong>
+      <span>Our scanner is free on <a href="https://pypi.org/project/open-aws-scanner/" style="color: #06b6d4; text-decoration: underline;">PyPI</a> — scan your AWS account in minutes.</span>
     </div>
     <header class="site-header" aria-label="Primary">
       <a class="brand" href="#top" aria-label="Cost-OPS home">
         <span class="brand-mark" aria-hidden="true">C</span>
-        <span>Cost-OPS</span>
+        <span>Cost-OPS Platform</span>
       </a>
       <nav class="nav-links" aria-label="Main navigation">
-        <a href="#approach">Approach</a>
+        <a href="#platform">Platform</a>
+        <a href="#intelligence">Intelligence</a>
         <a href="#security">Security</a>
-        <a href="#engagement">Engagement</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#open-source">Open Source</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -33,35 +35,43 @@
     <main id="top">
       <section class="hero">
         <div class="hero-content">
-          <p class="eyebrow">AWS cost optimization consulting</p>
-          <h1>Reduce AWS spend without installing agents or handing over broad access.</h1>
+          <p class="eyebrow">AWS cost intelligence platform</p>
+          <h1>Your entire AWS bill. Optimized. Continuously.</h1>
           <p class="hero-copy">
-            We identify recurring cloud savings with minimal-permission AWS analysis,
-            clear recommendations, and an engagement model tied to verified monthly impact.
+            A fintech-grade platform that scans your AWS accounts with read-only access,
+            identifies every dollar of waste, and lets you shop for savings — browse findings,
+            add fixes to your cart, and checkout with ready-to-run CLI commands.
+            Pay a percentage of your total AWS bill — backed by the savings we find.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="mailto:hello@example.com?subject=AWS%20Cost%20Optimization%20Assessment">
-              Book an assessment
+            <a class="button button-primary" href="#contact">
+              Start saving today
             </a>
-            <a class="button button-secondary" href="#security">View access model</a>
+            <a class="button button-secondary" href="https://pypi.org/project/open-aws-scanner/">
+              Try the free scanner →
+            </a>
           </div>
-          <dl class="hero-stats" aria-label="Key offer details">
+          <dl class="hero-stats" aria-label="Key platform details">
             <div>
               <dt>Access</dt>
               <dd>Read-only</dd>
             </div>
             <div>
               <dt>Agents</dt>
-              <dd>None</dd>
+              <dd>Zero</dd>
             </div>
             <div>
-              <dt>Fee model</dt>
-              <dd>10% of savings</dd>
+              <dt>Billing</dt>
+              <dd>% of AWS bill</dd>
+            </div>
+            <div>
+              <dt>Resource types</dt>
+              <dd>72+</dd>
             </div>
           </dl>
         </div>
 
-        <div class="hero-visual" aria-label="Cost savings dashboard preview">
+        <div class="hero-visual" aria-label="Cost savings platform preview">
           <div class="browser-bar" aria-hidden="true">
             <span></span>
             <span></span>
@@ -70,10 +80,10 @@
           <div class="dashboard">
             <div class="dashboard-header">
               <div>
-                <p>AWS monthly run rate</p>
+                <p>Monthly AWS spend</p>
                 <strong>$500,000</strong>
               </div>
-              <span class="status-pill">No-agent scan</span>
+              <span class="status-pill">Live scanning</span>
             </div>
             <div class="chart" aria-hidden="true">
               <span style="height: 72%"></span>
@@ -87,64 +97,95 @@
             </div>
             <div class="savings-row">
               <div>
-                <p>Estimated savings</p>
-                <strong>$50,000/mo</strong>
+                <p>Identified savings</p>
+                <strong>$63,400/mo</strong>
               </div>
               <div>
-                <p>Success fee</p>
-                <strong>$5,000/mo</strong>
+                <p>Remediated this month</p>
+                <strong>$41,200/mo</strong>
               </div>
             </div>
             <ul class="signal-list">
-              <li><span></span>Idle compute and oversized instances</li>
-              <li><span></span>Storage lifecycle and orphaned volumes</li>
-              <li><span></span>Commitment and reservation candidates</li>
+              <li><span></span>72 resource types scanned continuously</li>
+              <li><span></span>Click any finding → get CLI fix instantly</li>
+              <li><span></span>RI/SP coverage, rightsizing, idle detection</li>
             </ul>
           </div>
         </div>
       </section>
 
-      <section class="section intro" id="approach">
-        <div class="section-kicker">Consulting first</div>
+      <section class="section intro" id="platform">
+        <div class="section-kicker">Complete coverage</div>
         <div class="section-grid">
           <div>
-            <h2>Built for teams that need savings, not another dashboard.</h2>
+            <h2>The catch-all for every dollar on your AWS bill.</h2>
           </div>
           <div>
             <p>
-              Cost-OPS starts with a focused assessment, then turns findings into
-              business-readable recommendations and implementation support. The platform
-              behind the work stays lightweight: scanner tools, utilization analysis,
-              savings calculations, and repeatable reports.
+              Cost-OPS doesn't just find idle EC2 instances. We analyze your entire AWS footprint —
+              compute, storage, networking, databases, containers, serverless, reservations, savings plans,
+              and 72+ resource types — to surface every optimization opportunity. Rich reporting gives
+              you executive dashboards, team-level breakdowns, and the exact commands to act.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section" id="intelligence">
+        <div class="section-heading">
+          <p class="eyebrow">Built-in intelligence</p>
+          <h2>Click a finding. Get the fix. Ship it.</h2>
+        </div>
         <div class="feature-grid">
           <article class="feature">
             <span class="feature-icon" aria-hidden="true">01</span>
-            <h3>Discover waste</h3>
+            <h3>Scan everything</h3>
             <p>
-              Analyze cost, utilization, inventory, storage, and service configuration
-              signals to find recurring savings opportunities.
+              72+ resource types: EC2, RDS, Lambda, EBS, S3, NAT Gateways, Load Balancers,
+              ElastiCache, Redshift, SageMaker, EKS, and every Cost Explorer signal —
+              RI/SP utilization, cost anomalies, budget alerts, and forecasts.
             </p>
           </article>
           <article class="feature">
             <span class="feature-icon" aria-hidden="true">02</span>
-            <h3>Verify impact</h3>
+            <h3>Intelligent remediation</h3>
             <p>
-              Prioritize findings by confidence, implementation effort, risk, and monthly
-              financial impact.
+              Every finding comes with copy-paste AWS CLI commands — multi-step runbooks with
+              safety snapshots, risk levels, and reversibility indicators. Click "View CLI" on any
+              item and get the exact code to fix it in seconds.
             </p>
           </article>
           <article class="feature">
             <span class="feature-icon" aria-hidden="true">03</span>
-            <h3>Implement safely</h3>
+            <h3>Rich reporting</h3>
             <p>
-              Keep assessment access read-only, then move remediation through a separate
-              approval path when the customer is ready.
+              Executive dashboards, savings forecasts, realization tracking, spend-by-service breakdowns,
+              and exportable remediation scripts. Know exactly where money is going and what to do about it.
+            </p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">04</span>
+            <h3>Continuous scanning</h3>
+            <p>
+              Set it and forget it. Scheduled scans detect new waste as it appears. Track findings
+              from open → in progress → fixed, and measure verified savings over time.
+            </p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">05</span>
+            <h3>Multi-account support</h3>
+            <p>
+              Manage dozens of AWS accounts from a single dashboard. Cross-account IAM roles,
+              per-tenant scan schedules, and aggregated savings across your entire organization.
+            </p>
+          </article>
+          <article class="feature">
+            <span class="feature-icon" aria-hidden="true">06</span>
+            <h3>Remediation as shopping</h3>
+            <p>
+              Browse savings like a catalog. Select the optimizations you want, add them to your cart,
+              review the total impact, and checkout — just like an e-commerce experience.
+              Export a ready-to-run shell script at checkout. It's that simple.
             </p>
           </article>
         </div>
@@ -152,70 +193,131 @@
 
       <section class="section split-section" id="security">
         <div>
-          <p class="eyebrow">Minimum-permission access</p>
-          <h2>No agents. No broad admin role. No blind trust.</h2>
+          <p class="eyebrow">Zero trust · Zero agents</p>
+          <h2>Minimum permissions. Maximum visibility.</h2>
           <p>
-            Customers grant a scoped AWS role for assessment work. The scanner assumes
-            that role only when needed, collects read-only data, and produces a report
-            without touching workloads.
+            No agents installed on your instances. No broad admin access. We use a scoped
+            IAM role with read-only permissions that you control. Short-lived credentials,
+            external ID verification, and full audit logging of every scan.
           </p>
         </div>
         <div class="access-panel">
-          <h3>Assessment access model</h3>
+          <h3>Security model</h3>
           <ul class="check-list">
             <li>Customer-controlled IAM role</li>
             <li>External ID for role assumption</li>
-            <li>Short-lived AWS credentials</li>
-            <li>Cost Explorer and CUR read access</li>
-            <li>CloudWatch and service describe permissions</li>
-            <li>No write permissions during assessment</li>
+            <li>Short-lived STS credentials only</li>
+            <li>Zero write permissions — read-only scanning</li>
+            <li>Zero agents — nothing installed in your account</li>
+            <li>End-to-end SSL between all services</li>
+            <li>Keycloak SSO with JWT authentication</li>
+            <li>Full audit trail of every action</li>
           </ul>
         </div>
       </section>
 
-      <section class="section proof-band">
+      <section class="section proof-band" id="pricing">
         <div>
-          <span>Potential customer profile</span>
-          <strong>$25k+ minimum value</strong>
+          <span>Billing model</span>
+          <strong>% of your AWS bill</strong>
         </div>
         <div>
-          <span>Target fee structure</span>
-          <strong>10% of verified savings</strong>
+          <span>Our promise</span>
+          <strong>Backed by savings we find</strong>
         </div>
         <div>
-          <span>Monthly cost discipline</span>
-          <strong>Lean internal platform</strong>
+          <span>Minimum value</span>
+          <strong>$25k+ monthly spend</strong>
+        </div>
+      </section>
+
+      <section class="section pricing-detail">
+        <div class="section-grid">
+          <div>
+            <p class="eyebrow">Simple pricing</p>
+            <h2>We only win when you save.</h2>
+          </div>
+          <div>
+            <p>
+              Cost-OPS charges a small percentage of your total AWS bill — not your savings.
+              This aligns our incentives: the more waste we eliminate, the more value you get,
+              and our fee stays tied to the bill we're shrinking. No upfront costs, no per-seat
+              licensing, no surprise charges.
+            </p>
+            <p style="margin-top: 16px;">
+              Every recommendation is backed by real numbers. We track what you implement,
+              measure the verified monthly impact, and report on savings realization over time.
+              If we don't find savings that exceed our fee, you don't pay.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="open-source">
+        <div class="section-heading">
+          <p class="eyebrow">Open source first</p>
+          <h2>Free tools. Enterprise platform.</h2>
+        </div>
+        <div class="oss-grid">
+          <article class="oss-card">
+            <div class="oss-card-header">
+              <span class="oss-badge">FREE</span>
+              <h3>open-aws-scanner</h3>
+            </div>
+            <p>
+              Our core scanning engine — open source on PyPI. Install with <code>pip install open-aws-scanner</code>,
+              point it at your AWS account, and get a full waste report in minutes. No account needed.
+            </p>
+            <div class="oss-links">
+              <a href="https://pypi.org/project/open-aws-scanner/">PyPI →</a>
+              <a href="https://github.com/cost-ops/open-AWS-scanner">GitHub →</a>
+            </div>
+          </article>
+          <article class="oss-card">
+            <div class="oss-card-header">
+              <span class="oss-badge oss-badge-pro">PLATFORM</span>
+              <h3>Cost-OPS Platform</h3>
+            </div>
+            <p>
+              The full fintech-grade platform: multi-tenant management, Keycloak SSO,
+              intelligent remediation with CLI runbooks, rich dashboards, scheduled scanning,
+              Cost Explorer integration, audit logging, and the cart/export workflow.
+            </p>
+            <div class="oss-links">
+              <a href="#contact">Request access →</a>
+            </div>
+          </article>
         </div>
       </section>
 
       <section class="section engagement" id="engagement">
         <div class="section-heading">
-          <p class="eyebrow">Engagement model</p>
-          <h2>Start with an assessment. Stay only where savings are real.</h2>
+          <p class="eyebrow">How it works</p>
+          <h2>From zero to optimized in days, not months.</h2>
         </div>
         <div class="timeline">
           <article>
-            <span>Week 1</span>
-            <h3>Access and baseline</h3>
+            <span>Day 1</span>
+            <h3>Connect</h3>
             <p>
-              Configure read-only access, review current spend, define accounts and
-              services in scope, and agree on savings verification.
+              Create a read-only IAM role in your account. We provide the CloudFormation template.
+              Five minutes, zero risk.
             </p>
           </article>
           <article>
-            <span>Weeks 2-3</span>
-            <h3>Analysis and report</h3>
+            <span>Day 2</span>
+            <h3>Scan & report</h3>
             <p>
-              Run the scanner, review findings, validate opportunity size, and produce
-              an executive-ready savings plan.
+              The platform scans all 72+ resource types, analyzes Cost Explorer data,
+              and produces a prioritized savings report with exact dollar amounts.
             </p>
           </article>
           <article>
-            <span>Week 4+</span>
-            <h3>Implementation support</h3>
+            <span>Day 3+</span>
+            <h3>Shop & ship</h3>
             <p>
-              Help the customer approve, sequence, and implement changes while tracking
-              verified monthly savings.
+              Browse your savings catalog, add fixes to cart, review total impact, and checkout.
+              Export a remediation script and run it. Track realization as savings compound monthly.
             </p>
           </article>
         </div>
@@ -223,39 +325,61 @@
 
       <section class="section stack-section">
         <div>
-          <p class="eyebrow">Platform direction</p>
-          <h2>Reusable tools behind a consulting outcome.</h2>
+          <p class="eyebrow">Platform architecture</p>
+          <h2>Enterprise-grade infrastructure behind every scan.</h2>
         </div>
         <div class="stack-grid">
-          <span>Auth layer</span>
+          <span>Keycloak SSO</span>
           <span>Scanner service</span>
-          <span>Cost ingestion</span>
-          <span>Utilization analysis</span>
-          <span>Savings calculator</span>
-          <span>AI report assistant</span>
+          <span>Intelligence engine</span>
+          <span>Cost Explorer ingestion</span>
+          <span>Compute Optimizer</span>
+          <span>CLI runbook generator</span>
           <span>Audit logging</span>
-          <span>Customer reports</span>
+          <span>Rich dashboards</span>
+          <span>Multi-tenant admin</span>
+          <span>Cart & export</span>
         </div>
       </section>
 
       <section class="cta-section" id="contact">
         <div>
-          <p class="eyebrow">Ready for a pilot?</p>
-          <h2>Find out where AWS spend is leaking before it becomes permanent.</h2>
+          <p class="eyebrow">Ready to optimize?</p>
+          <h2>Find out how much of your AWS bill is waste.</h2>
           <p>
-            Start with a scoped assessment and a clear list of savings opportunities
-            your team can approve or reject.
+            Start with the free open source scanner or connect directly to the platform.
+            Either way, you'll have a clear picture of savings in minutes.
           </p>
         </div>
-        <a class="button button-primary" href="mailto:hello@example.com?subject=AWS%20Cost%20Optimization%20Pilot">
-          Start a pilot
-        </a>
+        <div class="cta-buttons">
+          <a class="button button-primary" href="mailto:hello@costops.co?subject=Cost-OPS%20Platform%20Access">
+            Request platform access
+          </a>
+          <a class="button button-secondary" href="https://pypi.org/project/open-aws-scanner/">
+            Try free scanner
+          </a>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Cost-OPS LLC</span>
-      <span>Minimal-access AWS cost optimization consulting.</span>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-mark" aria-hidden="true">C</span>
+          <span>Cost-OPS Platform</span>
+          <span class="footer-sep">·</span>
+          <span>Powered by <a href="https://pypi.org/project/open-aws-scanner/">open-aws-scanner</a></span>
+        </div>
+        <div class="footer-links">
+          <a href="https://pypi.org/project/open-aws-scanner/">PyPI</a>
+          <span class="footer-sep">|</span>
+          <a href="https://github.com/cost-ops/open-AWS-scanner">GitHub</a>
+          <span class="footer-sep">|</span>
+          <a href="mailto:hello@costops.co">Contact</a>
+          <span class="footer-sep">|</span>
+          <span>© 2026 Cost-OPS</span>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
